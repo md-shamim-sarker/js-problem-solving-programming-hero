@@ -15,4 +15,8 @@ function myFunction(chairQuantity, tableQuantity, bedQuantity) {
 }
 
 const totalWood = myFunction(6, 1, 2);
-console.log("Total Wood Needed:", totalWood, "cft.");
+console.log('Total Wood Needed:', totalWood, 'cft.');
+
+/*
+Total Wood Needed: 128 cft.
+*/

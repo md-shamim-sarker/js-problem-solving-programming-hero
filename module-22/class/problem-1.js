@@ -11,6 +11,10 @@ function removeDuplicate(names) {
     return uniqueNames;
 }
 
-const names = ["Shamim", "Snigdha", "Sneha", "Shamim", "Sneha"];
+const names = ['Shamim', 'Snigdha', 'Sneha', 'Shamim', 'Sneha'];
 
 console.log(removeDuplicate(names));
+
+/*
+[ 'Shamim', 'Snigdha', 'Sneha' ]
+*/

@@ -16,3 +16,10 @@ function primeNumber(num1, num2) {
 }
 
 primeNumber(10, 20);
+
+/*
+11
+13
+17
+19
+*/

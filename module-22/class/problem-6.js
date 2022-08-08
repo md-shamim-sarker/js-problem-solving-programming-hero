@@ -23,4 +23,8 @@ function myFunction(ticketQuantity) {
 }
 
 const price = myFunction(120);
-console.log("Total Expense:", price);
+console.log('Total Expense:', price);
+
+/*
+Total Expense: 11800
+*/

@@ -21,3 +21,7 @@ function isPrime(num) {
 
 const num = 1013;
 isPrime(num);
+
+/*
+1013 is prime number.
+*/

@@ -2,39 +2,39 @@
 
 const phones = [
     {
-        name: "Samsung",
+        name: 'Samsung',
         camera: 12,
-        storage: "32gb",
+        storage: '32gb',
         price: 36000,
-        color: "Silver",
+        color: 'Silver',
     },
     {
-        name: "Walton",
+        name: 'Walton',
         camera: 10,
-        storage: "24gb",
+        storage: '24gb',
         price: 22000,
-        color: "Golden",
+        color: 'Golden',
     },
     {
-        name: "iPhone",
+        name: 'iPhone',
         camera: 7,
-        storage: "16gb",
+        storage: '16gb',
         price: 60000,
-        color: "White",
+        color: 'White',
     },
     {
-        name: "Oppo",
+        name: 'Oppo',
         camera: 13,
-        storage: "28gb",
+        storage: '28gb',
         price: 40000,
-        color: "Purple",
+        color: 'Purple',
     },
     {
-        name: "Xiomi",
+        name: 'Xiomi',
         camera: 20,
-        storage: "25gb",
+        storage: '25gb',
         price: 18000,
-        color: "White",
+        color: 'White',
     },
 ];
 
@@ -51,3 +51,13 @@ function myFunction(obj) {
 
 const myPhone = myFunction(phones);
 console.log(myPhone);
+
+/*
+{
+  name: 'Xiomi',
+  camera: 20,
+  storage: '25gb',
+  price: 18000,
+  color: 'White'
+}
+*/

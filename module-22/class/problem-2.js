@@ -3,11 +3,11 @@
 function myFunction(a, b) {
     for (let i = a; i <= b; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            console.log("foobar");
+            console.log('foobar');
         } else if (i % 3 === 0) {
-            console.log("foo");
+            console.log('foo');
         } else if (i % 5 === 0) {
-            console.log("bar");
+            console.log('bar');
         } else {
             console.log(i);
         }
@@ -17,3 +17,26 @@ function myFunction(a, b) {
 const start = 1;
 const end = 20;
 myFunction(start, end);
+
+/*
+1
+2
+foo
+4
+bar
+foo
+7
+8
+foo
+bar
+11
+foo
+13
+14
+foobar
+16
+17
+foo
+19
+bar
+*/

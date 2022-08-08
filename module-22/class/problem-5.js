@@ -2,22 +2,22 @@
 
 const shoppingCart = [
     {
-        name: "Shoe",
+        name: 'Shoe',
         price: 3000,
         quantity: 1,
     },
     {
-        name: "Shirt",
+        name: 'Shirt',
         price: 2000,
         quantity: 2,
     },
     {
-        name: "Pant",
+        name: 'Pant',
         price: 2500,
         quantity: 2,
     },
     {
-        name: "Belt",
+        name: 'Belt',
         price: 500,
         quantity: 1,
     },
@@ -36,3 +36,7 @@ function myFunction(productsArray) {
 const expense = myFunction(shoppingCart);
 
 console.log(expense);
+
+/*
+12500
+*/
