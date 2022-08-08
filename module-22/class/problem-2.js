@@ -1,4 +1,4 @@
-// Write a function which take two numbers a and b as parameter. Show the numbers a to b, if the number is divisible by 3 then instead of the number show 'foo', if the number is divisible by 5 then instead of the number show 'bar' and finally if the number is divisible by both 3 and 5 then instead of the number show 'foobar'.
+// Write a function which take two numbers a and b as parameter. Show the numbers a to b, if the number is divisible by 3 then instead of the number, show 'foo', if the number is divisible by 5 then instead of the number, show 'bar' and finally if the number is divisible by both 3 and 5 then instead of the number, show 'foobar'.
 
 function myFunction(a, b) {
     for (let i = a; i <= b; i++) {

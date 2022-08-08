@@ -1,4 +1,4 @@
-// Write a function which can remove duplicate elements from an array
+// Write a function which can remove duplicate elements from an array.
 
 function removeDuplicate(names) {
     const uniqueNames = [];
